@@ -1,0 +1,253 @@
+.contact-page {
+  width: 100%;
+}
+
+.contact-desktop {
+  padding-bottom: 100px;
+}
+
+.contact-mobile {
+  display: none;
+}
+
+.contacttitle {
+  color: #d8d8d8;
+  font-size: 2.5em;
+}
+
+#light .contacttitle {
+  color: #393939;
+  font-size: 2.5em;
+}
+
+.contactformdiv {
+  margin: auto;
+}
+
+.contactform {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+
+.contactinput,
+.contacttextarea {
+  background-color: #393939;
+  border: none;
+  color: white;
+  font-family: Sora;
+  /* transition: ease 0.5s; */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#light .contactinput,
+#light .contacttextarea {
+  background-color: #d9d9d9;
+  border: none;
+  color: black;
+  font-family: Sora;
+  /* transition: ease 0.5s; */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* .contactinput:hover,
+.contacttextarea:hover {
+  scale: 1.01;
+} */
+
+.contactinput {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contacttextarea {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  padding: 25px 25px;
+  height: 350px;
+  border-radius: 10px;
+  resize: none;
+}
+
+.contactbutton {
+  background: rgb(0, 85, 227);
+  background: linear-gradient(
+    151deg,
+    rgba(0, 85, 227, 1) 0%,
+    rgba(45, 153, 255, 1) 100%
+  );
+  border: #2894ff00;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.5em;
+  font-family: Sora;
+  font-weight: bold;
+  padding: 14px 0px;
+  width: 250px;
+  position: absolute;
+  bottom: -25px;
+  right: -50px;
+  cursor: pointer;
+  /* transition: ease 0.5s; */
+}
+
+/* .contactbutton:hover {
+  background: rgb(45, 153, 255);
+  background: linear-gradient(
+    151deg,
+    rgba(45, 153, 255, 1) 0%,
+    rgba(0, 85, 227, 1) 100%
+  );
+  scale: 1.01;
+} */
+
+form {
+  position: relative;
+}
+
+.fourthpartabout {
+  padding-bottom: 0px;
+}
+
+@media screen and (max-width: 425px) {
+  .contact-desktop {
+    display: none;
+  }
+
+  .contact-mobile {
+    display: block;
+  }
+
+  .contacttitle {
+    color: #d8d8d8;
+    font-size: 2.5em;
+  }
+
+  #light .contacttitle {
+    color: #393939;
+    font-size: 2.5em;
+  }
+
+  .contactformdiv {
+    margin: auto;
+    width: 100%;
+  }
+
+  .contactform {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contactinput,
+  .contacttextarea-mobile {
+    background-color: #393939;
+    border: none;
+    color: white;
+    font-family: Sora;
+    /* transition: ease 0.5s; */
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  #light .contactinput,
+  #light .contacttextarea-mobile {
+    background-color: #d9d9d9;
+    border: none;
+    color: black;
+    font-family: Sora;
+    /* transition: ease 0.5s; */
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  /* .contactinput:hover,
+  .contacttextarea:hover {
+    scale: 1.01;
+  } */
+
+  .contactinput {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .contacttextarea-mobile {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    padding: 20px 20px;
+    height: 150px;
+    border-radius: 10px;
+    resize: none;
+  }
+
+  .contactbutton-mobile {
+    background: rgb(0, 85, 227);
+    background: linear-gradient(
+      151deg,
+      rgba(0, 85, 227, 1) 0%,
+      rgba(45, 153, 255, 1) 100%
+    );
+    border: #2894ff00;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-family: Sora;
+    font-weight: bold;
+    padding: 14px 0px;
+    width: 50%;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    cursor: pointer;
+    margin-top: 15px;
+    /* transition: ease 0.5s; */
+  }
+
+  form {
+    position: relative;
+  }
+
+  .fourthpartabout {
+    padding-bottom: 0px;
+  }
+
+  .fourthpartabout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    padding-bottom: 0px !important;
+  }
+
+  .internshiptext {
+    color: #ffffff;
+    font-size: 1.3em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 1.3;
+    width: fit-content;
+  }
+
+  #light .internship {
+    color: #393939;
+    font-size: 5em;
+    margin-bottom: 20px;
+  }
+}

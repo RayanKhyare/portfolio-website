@@ -1,0 +1,444 @@
+.projectpage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectpage-mobile {
+  display: none;
+}
+.largeimgdivomega {
+  margin-top: -125px;
+  width: 100vw;
+  height: 725px;
+  background-image: linear-gradient(0deg, #ffffff1a 0%, #000000 100%),
+    url("../../img/omega.png");
+  background-size: cover;
+  background-position: 50% 50%;
+
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.largeimgdivlearnify {
+  margin-top: -125px;
+  width: 100vw;
+  height: 725px;
+  background-image: linear-gradient(0deg, #ffffff1a 0%, #000000 100%),
+    url("../../img/learnify_thumbnail.png");
+  background-size: cover;
+  background-position: 50% 50%;
+
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.largeimgdivfestirap {
+  margin-top: -125px;
+  width: 100vw;
+  height: 725px;
+  background-image: linear-gradient(0deg, #ffffff1a 0%, #000000 100%),
+    url("../../img/festirap_posters.png");
+  background-size: cover;
+  background-position: 50% 50%;
+
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+.largeimgdivfunkymood {
+  margin-top: -125px;
+  width: 100vw;
+  height: 725px;
+  background-image: linear-gradient(0deg, #ffffff1a 0%, #000000 100%),
+    url("../../img/funkymood_thumbnail.png");
+  background-size: cover;
+  background-position: 50% 50%;
+
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.largeimgdivkunstinhuis {
+  margin-top: -125px;
+  width: 100vw;
+  height: 725px;
+  background-image: linear-gradient(0deg, #ffffff1a 0%, #000000 100%),
+    url("../../img/kunstinhuis_iphone.png");
+  background-size: cover;
+  background-position: 50% 50%;
+
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.largeimgdivsteam {
+  margin-top: -125px;
+  width: 100vw;
+  height: 725px;
+  background-image: linear-gradient(0deg, #ffffff1a 0%, #000000 100%),
+    url("../../img/frontend_steam.png");
+  background-size: cover;
+  background-position: 50% 50%;
+
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.largeimgdivfinalshow {
+  margin-top: -125px;
+  width: 100vw;
+  height: 725px;
+  background-image: linear-gradient(0deg, #ffffff1a 0%, #000000 100%),
+    url("../../img/finalshow_loading.png");
+  background-size: cover;
+  background-position: 50% 50%;
+
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.largeimgdivchatrix {
+  margin-top: -125px;
+  width: 100vw;
+  height: 725px;
+  background-image: linear-gradient(0deg, #ffffff1a 0%, #000000 100%),
+    url("../../img/chatrix.png");
+  background-size: cover;
+  background-position: 50% 50%;
+
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.largeimgdivquizapp {
+  margin-top: -125px;
+  width: 100vw;
+  height: 725px;
+  background-image: linear-gradient(0deg, #ffffff1a 0%, #000000 100%),
+    url("../../img/quizapp_quiz.png");
+  background-size: cover;
+  background-position: 50% 50%;
+
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.largeimgdivthreejs {
+  margin-top: -125px;
+  width: 100vw;
+  height: 725px;
+  background-image: linear-gradient(0deg, #ffffff1a 0%, #000000 100%),
+    url("../../img/threejs.png");
+  background-size: cover;
+  background-position: 50% 50%;
+
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.projectmain {
+  display: block;
+  position: relative;
+  width: 85vw;
+  margin: auto;
+}
+
+.toptext {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bigprojectname {
+  color: #d8d8d8;
+  position: relative;
+  font-size: 5em;
+  margin: 0;
+  padding-top: 25px;
+}
+
+#light .bigprojectname {
+  color: #393939;
+  position: relative;
+  font-size: 5em;
+  margin: 0;
+  padding-top: 25px;
+}
+
+.projectshortdescription {
+  font-size: 1.7em;
+  color: #d8d8d8;
+  margin-top: 20px;
+}
+#light .projectshortdescription {
+  font-size: 1.7em;
+  color: #393939;
+  margin-top: 20px;
+}
+
+.topmaintext {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.bigtagscontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: around;
+  color: #d8d8d8;
+}
+
+#light .bigtagscontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: around;
+  color: #393939;
+}
+
+.bigtag {
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 10px;
+  margin-left: 12px;
+  margin-top: 0px;
+  font-size: 1em;
+}
+#light .bigtag {
+  border: 1px solid #393939;
+  border-radius: 7px;
+  padding: 10px;
+  margin-left: 12px;
+  margin-top: 0px;
+  font-size: 1em;
+}
+
+.sideinfocontainer {
+  width: 23vw;
+  height: 100%;
+  float: right;
+  text-align: center;
+  background-color: #2d2d2d;
+  border-radius: 20px;
+  padding-bottom: 25px;
+}
+
+#light .sideinfocontainer {
+  width: 20vw;
+  height: 100%;
+  float: right;
+  text-align: center;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  padding-bottom: 25px;
+}
+
+.sideinfoimg {
+  width: 80%;
+  height: 200px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-top: 50px;
+}
+
+.sideinfodescription {
+  margin: auto;
+  text-align: left;
+  width: 80%;
+  padding-top: 20px;
+  font-size: 1.2em;
+  color: #d8d8d8;
+}
+
+#light .sideinfodescription {
+  margin: auto;
+  text-align: left;
+  width: 80%;
+  padding-top: 20px;
+  font-size: 1.2em;
+  color: #2d2d2d;
+}
+
+.sideinfotitle {
+  color: #d8d8d8;
+  font-size: 2.5em;
+  text-align: left;
+  margin-left: 2.6vw;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+#light .sideinfotitle {
+  color: #2d2d2d;
+  font-size: 2.5em;
+  text-align: left;
+  margin-left: 2.6vw;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.toolscontainer {
+  display: flex;
+
+  width: 80%;
+  text-align: left;
+  margin-left: 2.6vw;
+  margin-top: 0px;
+}
+
+.toolimg {
+  width: 60px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.impressiontext {
+  margin: auto;
+  text-align: left;
+  width: 80%;
+  color: #d8d8d8;
+  font-size: 1.1em;
+  margin-left: 50px;
+}
+#light .impressiontext {
+  margin: auto;
+  text-align: left;
+  width: 80%;
+  color: #2d2d2d;
+  font-size: 1.1em;
+  margin-left: 50px;
+}
+
+.linkscontainer {
+  margin-top: 25px;
+  text-align: right;
+  margin-right: 2.6vw;
+}
+.linkicon {
+  width: 60px;
+  margin-left: 15px;
+  color: #1f73c4;
+  transition: ease 0.5s;
+}
+
+.linkicon:hover {
+  scale: 1.1;
+}
+
+.projectmainbottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.picscontainer {
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-evenly;
+}
+
+.projectpic {
+  width: 1150px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .projectpage {
+    display: none;
+  }
+
+  .projectpage-mobile {
+    display: block;
+    width: 100%;
+  }
+  .projectpage-top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .projectpage-top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .projectpage-title {
+    width: fit-content;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-size: 2em;
+    text-align: left;
+  }
+
+  .linkscontainer {
+    width: 100%;
+  }
+
+  .linkicon {
+    width: 40px;
+  }
+
+  .projectpage-smalldescription {
+    width: fit-content;
+    font-weight: 200;
+    margin-top: 5px;
+    text-align: left;
+  }
+
+  .bigtagscontainer {
+    display: flex;
+    flex-direction: row;
+    color: #d8d8d8;
+  }
+
+  .bigtag:nth-child(1) {
+    margin-left: 0px;
+  }
+  .bigtag {
+    font-size: 0.8em;
+    padding: 5px 10px;
+  }
+
+  .projectpage-description {
+    text-align: left;
+    width: 100%;
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+
+  .picscontainer {
+    width: 100%;
+    overflow-x: scroll;
+    flex-direction: row;
+    margin-top: 35px;
+    justify-content: initial;
+  }
+  .projectpic {
+    width: 100%;
+    margin-left: 25px;
+    border: 2px solid #2895ff;
+  }
+  .projectpic:nth-child(1) {
+    width: 100%;
+    margin-left: 0px;
+    border: 2px solid #2895ff;
+  }
+
+  .sideinfotitle {
+    margin-left: 0px;
+    font-size: 2em;
+  }
+  .impressiontext {
+    margin-left: 0px;
+    font-size: 1em;
+    width: 100%;
+  }
+}

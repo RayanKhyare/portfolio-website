@@ -1,0 +1,40 @@
+.all,
+.web,
+.design {
+  font-size: 3em;
+}
+
+.categories {
+  margin: auto;
+  width: 87%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.projectscontainer {
+  width: 80%;
+  height: 100%;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.projectimg {
+  width: 500px;
+  height: 250px;
+  margin: 10px;
+  object-fit: cover;
+  border-radius: 7px;
+  filter: opacity(0.7);
+  transition: filter 0.5s;
+  cursor: pointer;
+}
+
+.projectimg:hover {
+  filter: opacity(1);
+  scale: 1.01;
+}

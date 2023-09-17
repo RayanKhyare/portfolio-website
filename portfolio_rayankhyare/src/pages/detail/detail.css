@@ -1,0 +1,93 @@
+.detail {
+  margin: auto;
+  width: 55%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.backbtn {
+  transition: ease 0.5s;
+}
+
+.backbtn:hover {
+  scale: 1.05;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.detailtitle {
+  color: #d8d8d8;
+  font-family: Sora;
+  margin-left: 50px;
+  font-size: 3em;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#light .detailtitle {
+  color: #393939;
+  font-family: Sora;
+  margin-left: 50px;
+  font-size: 3em;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.maininfo {
+  display: flex;
+  margin-top: 50px;
+}
+
+.detailimg {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+.detaildescription {
+  margin: 0px;
+  margin-left: 50px;
+  width: 550px;
+  font-size: 1.5em;
+  text-align: left;
+  color: #d8d8d8;
+}
+
+#light .detaildescription {
+  margin: 0px;
+  margin-left: 50px;
+  width: 550px;
+  font-size: 1.5em;
+  text-align: left;
+  color: #393939;
+}
+
+.rightinfo {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+.bottomlogos {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.smalllogo {
+  margin-left: 25px;
+  width: 85px;
+  height: 85px;
+  transition: ease 0.5s;
+}
+.smalllogo:hover {
+  color: #282828;
+  scale: 1.1;
+}

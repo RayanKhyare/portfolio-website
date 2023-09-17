@@ -1,0 +1,41 @@
+.item {
+  margin-left: 100px;
+  width: 150px;
+}
+
+.itemimg {
+  width: 100%;
+}
+.itemname {
+  color: #d8d8d8;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#light .itemname {
+  color: #393939;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 425px) {
+  .item {
+    margin-left: 100px;
+    width: 150px;
+  }
+
+  .itemimg {
+    width: 100%;
+  }
+  .itemname {
+    color: #d8d8d8;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+
+  #light .itemname {
+    color: #393939;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+}
